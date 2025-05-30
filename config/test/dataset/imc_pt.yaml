@@ -1,0 +1,12 @@
+name: "IMC-PT"
+
+root_path: "/mnt/sda/datasets/IMCPT" 
+csv_rel_path: "test.csv"
+pairs_csv_rel_path: "test_pairs.csv"
+
+loader:
+  num_workers: 2
+
+pairs_loader:
+  batch_size: 256
+  num_workers: 8

@@ -1,0 +1,21 @@
+# Axes settings
+axes.grid: True
+axes.labelsize: 15.0
+
+# X-axis settings
+xtick.major.size: 7
+xtick.minor.size: 4
+xtick.major.width: 2
+xtick.minor.width: 2
+xtick.minor.visible: True
+
+# Y-axis settings
+ytick.major.size: 7
+ytick.minor.size: 4
+ytick.major.width: 2
+ytick.minor.width: 2
+ytick.minor.visible: True
+
+# Line settings
+lines.linewidth: 2.0
+lines.linestyle: -

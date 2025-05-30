@@ -1,0 +1,9 @@
+# Other files
+__pycache__/
+docker-compose.debug.yml
+docker-compose.yml
+*.pdf
+.DS_Store
+*.yml
+.ipynb_checkpoints
+runs/

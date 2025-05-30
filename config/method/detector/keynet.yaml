@@ -1,0 +1,3 @@
+name: keynet
+
+checkpoint_url: file:///home/konstantin/personal/Summertime/source/baselines/keynet/keynet/model/weights/keynet_pytorch.pth

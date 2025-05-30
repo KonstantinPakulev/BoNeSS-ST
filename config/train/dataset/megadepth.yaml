@@ -1,0 +1,13 @@
+root_path: "/mnt/sda/datasets/MegaDepth" 
+csv_rel_path: "train_disk.csv"
+
+transforms:
+  random_crop:
+    width: 560
+    height: 560
+  
+loader:
+  batch_size: 6
+  num_samples: 23100
+  shuffle: true
+  num_workers: 4

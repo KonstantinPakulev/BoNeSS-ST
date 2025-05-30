@@ -1,0 +1,24 @@
+[submodule "source/baselines/disk/disk"]
+	path = source/baselines/disk/disk
+	url = https://github.com/cvlab-epfl/disk.git
+[submodule "source/baselines/superpoint/superpoint"]
+	path = source/baselines/superpoint/superpoint
+	url = https://github.com/rpautrat/SuperPoint.git
+[submodule "source/baselines/ness_st/ness_st"]
+	path = source/baselines/ness_st/ness_st
+	url = https://github.com/KonstantinPakulev/NeSS-ST
+[submodule "source/baselines/hardnet/hardnet"]
+	path = source/baselines/hardnet/hardnet
+	url = https://github.com/DagnyT/hardnet
+[submodule "source/baselines/rekd/rekd"]
+	path = source/baselines/rekd/rekd
+	url = https://github.com/KonstantinPakulev/REKD
+[submodule "source/baselines/keynet/keynet"]
+	path = source/baselines/keynet/keynet
+	url = https://github.com/KonstantinPakulev/Key.Net-Pytorch
+[submodule "source/baselines/r2d2/r2d2"]
+	path = source/baselines/r2d2/r2d2
+	url = https://github.com/naver/r2d2
+[submodule "source/baselines/superpoint/superpoint_pretrained_network"]
+	path = source/baselines/superpoint/superpoint_pretrained_network
+	url = https://github.com/magicleap/SuperPointPretrainedNetwork

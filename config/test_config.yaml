@@ -1,0 +1,5 @@
+hydra:
+  run:
+    dir: runs/test/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: runs/test/${now:%Y-%m-%d}/${now:%H-%M-%S}

@@ -1,0 +1,8 @@
+base_detector:
+  name: 'shi_tomasi'
+  sobel_size: 3
+  window_size: 3
+  window_cov: 2
+  nms_size: 5
+  localize: True
+  salient_kps_score_thresh: 0.005

@@ -1,0 +1,12 @@
+name: "ScanNet"
+
+root_path: "/mnt/sda/datasets/ScanNet" 
+csv_rel_path: "val.csv"
+pairs_csv_rel_path: "val_pairs.csv"
+
+loader:
+  num_workers: 2
+
+pairs_loader:
+  batch_size: 256
+  num_workers: 8

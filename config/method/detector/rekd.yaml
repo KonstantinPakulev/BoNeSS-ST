@@ -1,0 +1,3 @@
+name: rekd
+
+checkpoint_url: file:///home/konstantin/personal/Summertime/source/baselines/rekd/rekd/weights/best_model.pt

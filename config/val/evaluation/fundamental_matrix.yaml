@@ -1,0 +1,23 @@
+n: 2048
+
+feature_dir_path: '/home/konstantin/personal/features'
+
+only_features: False
+only_task: False
+
+clean_up_features: True
+
+ratio_test_thr: 0.99
+
+parallelize: True
+
+estimator:
+  name: 'f_pydegensac'
+  confidence: 0.9999
+  num_ransac_iter: 200000
+  min_num_matches: 8
+
+  inlier_thr: 0.7
+
+max_r_err_thr: 10
+max_t_err_thr: 10

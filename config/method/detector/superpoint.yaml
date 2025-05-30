@@ -1,0 +1,4 @@
+name: "superpoint"
+
+# checkpoint_url: "file:///home/konstantin/personal/Summertime/source/baselines/superpoint/superpoint/weights/superpoint_v6_from_tf.pth"
+checkpoint_url: "file:///home/konstantin/personal/Summertime/source/baselines/superpoint/superpoint_pretrained_network/superpoint_v1.pth"

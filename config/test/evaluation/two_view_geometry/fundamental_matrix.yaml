@@ -1,0 +1,20 @@
+task: 'two_view_geometry'
+n: 2048
+
+feature_dir_path: '/home/konstantin/personal/features'
+
+only_features: False
+only_task: False
+
+clean_up_features: True
+
+parallelize: True
+
+estimator:
+  name: 'f_pydegensac'
+  confidence: 0.9999
+  num_ransac_iter: 200000
+  min_num_matches: 8
+
+max_r_err_thr: 10
+max_t_err_thr: 10

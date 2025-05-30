@@ -1,0 +1,27 @@
+name: "boness_st"
+
+model:
+  input_channels: 3
+  down:
+    - 16
+    - 32
+    - 64
+    - 64
+    - 64
+
+  up:
+    - 64
+    - 64
+    - 64
+    - 1
+
+base_detector:
+  name: 'shi_tomasi'
+
+  sobel_size: 3
+  window_size: 3
+  window_cov: 2
+
+  nms_size: 5
+  localize: True
+  score_thresh: 0.0

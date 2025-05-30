@@ -1,0 +1,51 @@
+services:
+  deploy:
+    user: 1006:1006
+    image: summertime
+    build:
+      context: .
+      args:
+        UID: 1006
+        GID: 1006
+    volumes:
+      - ./scripts:/home/konstantin/personal/Summertime/scripts
+      - /mnt/vol2_raid/datasets:/mnt/sda/datasets
+      - /mnt/vol2_raid/features:/home/konstantin/personal/features
+      - ./runs:/home/konstantin/personal/Summertime/runs
+    stdin_open: true
+    tty: true
+    shm_size: 24gb
+    deploy:
+      resources:
+        limits:
+          cpus: '24'
+        reservations:
+          cpus: '24'
+          devices:
+            - driver: nvidia
+              device_ids:
+                - '0'
+              capabilities: [ gpu ]
+    hostname: nabo
+  
+  develop:
+    user: 1006:1006
+    image: summertime
+    volumes:
+      - .:/home/konstantin/personal/Summertime
+      - /mnt/vol2_raid/datasets:/mnt/sda/datasets
+      - /mnt/vol2_raid/features:/home/konstantin/personal/features
+    stdin_open: true
+    tty: true
+    shm_size: 32gb
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids:
+                - '0'
+              capabilities: [ gpu ]
+          cpus: '64'
+    hostname: nabo
+  

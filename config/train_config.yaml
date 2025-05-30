@@ -1,0 +1,5 @@
+hydra:
+  run:
+    dir: runs/train/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: runs/train/${now:%Y-%m-%d}/${now:%H-%M-%S}

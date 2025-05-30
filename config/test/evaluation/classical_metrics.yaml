@@ -1,0 +1,11 @@
+task: 'classical_metrics'
+n: 2048
+
+feature_dir_path: '/home/konstantin/personal/features'
+
+only_features: False
+only_task: False
+
+clean_up_features: True
+
+max_px_err_thr: 10

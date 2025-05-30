@@ -1,0 +1,10 @@
+defaults:
+  - patch_detector: ness_st
+  - distribution_of_homographies: default
+  - sample_detector: ness_st
+  - expected_measurement_error: spectral
+
+n: 1024
+m: 100
+
+correct_non_repeatable_kps: False

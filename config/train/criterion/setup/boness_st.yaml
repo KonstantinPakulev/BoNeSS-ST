@@ -1,0 +1,8 @@
+defaults:
+  - patch_detector: boness_st
+  - homography_distribution: default
+  - sample_detector: boness_st
+  - beta_eme: sqrt_trace/decomposition
+
+n: 1024
+m: 100

@@ -1,0 +1,4 @@
+name: r2d2
+
+checkpoint_url: file:///home/konstantin/personal/Summertime/source/baselines/r2d2/r2d2/models/r2d2_WAF_N16.pt
+

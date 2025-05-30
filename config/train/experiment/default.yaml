@@ -1,0 +1,8 @@
+accelerator: 'gpu'
+devices: 1
+max_epochs: 15
+
+log_every_n_steps: 50
+
+model_checkpoint:
+  save_top_k: 10
