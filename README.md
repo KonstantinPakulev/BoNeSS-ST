@@ -1,10 +1,8 @@
 # Good Keypoints for the Two-View Geometry Estimation Problem
 
-<div align="center" style="padding-bottom: 1em;">
-<a href="https://arxiv.org/abs/2503.18767"><strong style="font-size: 1.5em;">arXiv</strong></a>
-</div>
+## <div align="center"> <a href="https://arxiv.org/abs/2503.18767"><strong>arXiv</strong></a> </div>
 
-<div align="center" style="padding-bottom: 1em;">
+<div align="center">
 <i>We regret to inform that the acceptance of our paper to <strong>CVPR 2025</strong> has been withdrawn due to the affiliation of some of the authors (see <a href="https://www.linkedin.com/posts/andrey-kuznetsov87_i-publish-posts-not-quite-regularly-here-activity-7321178151168991232-sF9P?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAiEWF4B5-LtagPmwUDQA5XRaT9XVc6mBAk">here</a> for details).</i>
 </div>
 
