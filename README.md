@@ -76,7 +76,7 @@ If you want to use an already running `deploy` service with the updated credenti
 
 ## Datasets
 
-For the instructions on how to download IMC-PT, MegaDepth and ScanNet as well as get train, validation, and test splits, please refer to the [NeSS-ST repository](https://github.com/KonstantinPakulev/NeSS-ST). Refer to the [homography benchmark repository](https://github.com/danini/homography-benchmark) for downloading the HEB dataset and getting validation and test splts.
+For the instructions on how to download IMC-PT, MegaDepth and ScanNet as well as get train, validation, and test splits, please refer to the [NeSS-ST repository](https://github.com/KonstantinPakulev/NeSS-ST). Take a look at the [homography benchmark repository](https://github.com/danini/homography-benchmark) on how to download the HEB dataset and get validation and test splts.
 
 ## Training
 
